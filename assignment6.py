@@ -8,10 +8,12 @@ while True: #the condition here for the while loop is always true.
    print("INFINITE!") #so the loop is run infinity times.
 
 # Q.3- Create a list of integer elements by user input. Make a new list which will store square of elements of previous list.
-#for i in range(3):
-  #  numbers = int(input("Enter any integer:"))
- #   list_1 = numbers
-#print("you enterred numbers are:",list_1)
+for i in range(3):
+    numbers = int(input("Enter any integer:"))
+    list_1 = list_1.append(numbers)
+print("you enterred numbers are:",list_1)
+for x in list_1
+    print("the square of the number is:",x*x)
 
 # Q.5- Using range(1,101), make a list containing even and odd numbers.
 for x in range(1,101): #a particular range given
